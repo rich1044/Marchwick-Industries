@@ -1,0 +1,107 @@
+html, body{
+  height: 100%;
+  margin: 0;
+  background-color: #87775D;
+}
+.container{
+  min-height: 100%;
+  background-color: #87775D;
+}
+
+h1 {
+    color: white;
+    font-family: "san-serif", "tahoma";
+    font-size: 50px;
+    padding-left: 200px;
+    margin-top: 50px;
+}
+
+.container #logo {
+  position: absolute;
+  border-radius: 50%;
+  margin-left: 50px;
+  height: 200px;
+}
+.container ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #BCBEC0;
+}
+
+.container a li{
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-family: "san-serif", "tahoma";
+}
+
+.container a li:hover{
+  background-color: black;
+  color: white;
+}
+
+.active li{
+  background-color: white;
+}
+
+.container #footer{
+  position: absolute;
+  bottom: 15px;
+  background-color: #BCBEC0;
+  height: 59px;
+  width: 100%;
+}
+
+.container #footer ul{
+  display: table;
+  list-style-type: none;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.container #footer li{
+  display: block;
+  float: left;
+  text-align center;
+  padding-right: 20px;
+  padding-top: 40px;
+  text-decoration: none;
+  font-family: "san-serif", "tahoma";
+  font-size: 12px;
+}
+
+.container #adRotater {
+  width: 700px;
+  height: 500px;
+  background-color: #BCBEC0;
+  display: table;
+  margin: 0 auto;
+  margin-top: 100px;
+
+  -webkit-box-shadow:0 0 20px black;
+  -moz-box-shadow: 0 0 20px black;
+  box-shadow:0 0 20px black;
+}
+
+.container #photo1{
+  display: initial;
+  width: 700px;
+  height: 500px;
+}
+
+.container #photo2{
+  display: none;
+  width: 700px;
+  height: 500px;
+}
+
+.container #photo3{
+  display: none;
+  width: 700px;
+  height: 500px;
+}
