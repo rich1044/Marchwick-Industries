@@ -1,0 +1,86 @@
+html, body{
+  height: 100%;
+  margin: 0;
+  background-color: #87775D;
+}
+.container{
+  min-height: 100%;
+  background-color: #87775D;
+}
+
+.container #siteName {
+    color: white;
+    font-family: "san-serif", "tahoma";
+    font-size: 50px;
+    padding-left: 300px;
+    margin-top: 50px;
+}
+
+.container #statement{
+  color: black;
+  font-family: "san-serif", "tahoma";
+  font-size: 25px;
+  padding-left: 380px;
+
+}
+
+.container #logo {
+  position: absolute;
+  border-radius: 50%;
+  margin-left: 50px;
+  top: 10px;
+  height: 170px;
+}
+.container ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 15px;
+  overflow: hidden;
+  background-color: #BCBEC0;
+}
+
+.container a li{
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-family: "san-serif", "tahoma";
+}
+
+.container a li:hover{
+  background-color: black;
+  color: white;
+}
+
+.active li{
+  background-color: white;
+}
+
+.container #footer{
+  position: absolute;
+  bottom: 15px;
+  background-color: #BCBEC0;
+  height: 59px;
+  width: 100%;
+}
+
+.container #footer ul{
+  display: table;
+  list-style-type: none;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.container #footer li{
+  display: block;
+  float: left;
+  text-align center;
+  padding-right: 20px;
+  padding-top: 40px;
+  text-decoration: none;
+  font-family: "san-serif", "tahoma";
+  font-size: 12px;
+}

@@ -8,24 +8,34 @@ html, body{
   background-color: #87775D;
 }
 
-h1 {
+.container #siteName {
     color: white;
     font-family: "san-serif", "tahoma";
     font-size: 50px;
-    padding-left: 200px;
+    padding-left: 300px;
     margin-top: 50px;
+}
+
+.container #statement{
+  color: black;
+  font-family: "san-serif", "tahoma";
+  font-size: 25px;
+  padding-left: 380px;
+
 }
 
 .container #logo {
   position: absolute;
   border-radius: 50%;
   margin-left: 50px;
-  height: 200px;
+  top: 10px;
+  height: 170px;
 }
 .container ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
+  margin-top: 15px;
   overflow: hidden;
   background-color: #BCBEC0;
 }
@@ -81,7 +91,7 @@ h1 {
   background-color: #BCBEC0;
   display: table;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 70px;
 
   -webkit-box-shadow:0 0 20px black;
   -moz-box-shadow: 0 0 20px black;
@@ -101,6 +111,18 @@ h1 {
 }
 
 .container #photo3{
+  display: none;
+  width: 700px;
+  height: 500px;
+}
+
+.container #photo4{
+  display: none;
+  width: 700px;
+  height: 500px;
+}
+
+.container #photo5{
   display: none;
   width: 700px;
   height: 500px;
