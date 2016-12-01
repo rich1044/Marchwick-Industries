@@ -4,27 +4,7 @@
     <meta charset="utf-8">
     <title>Marchwick Industries</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function(){
-        var number= 1;
-        var fade = function(){
-          $("#photo" + number).fadeOut("slow");
-          $("#photo" + number).css("display", "none");
-          number++;
-          if(number == 6){
-            number = 1;
-          }
-          $("#photo" + number).fadeIn("slow");
-          $("#photo" + number).css("display", "initial");
-
-        }
-        setInterval(function(){
-          fade();
-
-      }, 5000);
-
-      });
-    </script>
+    <script type="text/javascript" src="scripts/index.js"></script>
     <link rel="stylesheet" type="text/css" href="styles/index.css">
   </head>
   <body>
@@ -32,6 +12,10 @@
       <img  src="images/logo1.jpg" id="logo"/>
       <h1 id="siteName">Marchwick Industries</h1>
       <h1 id="statement">"Proudly made in the USA"</h1>
+      <div id="contact">
+        <h2 id="phone">Phone: 123-456-7890</h2>
+        <h2 id="email">Email: Pat@marchwick.com</h2>
+      </div>
       <ul>
         <a href="contact.html"><li>Contact</li></a>
         <a href="about.html"><li>About</li></a>

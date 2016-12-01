@@ -3,12 +3,12 @@ html, body{
   margin: 0;
   background-color: #87775D;
 }
-.container{
+.container1{
   min-height: 100%;
   background-color: #87775D;
 }
 
-.container #siteName {
+.container1 #siteName {
     color: white;
     font-family: "san-serif", "tahoma";
     font-size: 50px;
@@ -16,7 +16,7 @@ html, body{
     margin-top: 50px;
 }
 
-.container #statement{
+.container1 #statement{
   color: black;
   font-family: "san-serif", "tahoma";
   font-size: 25px;
@@ -24,14 +24,23 @@ html, body{
 
 }
 
-.container #logo {
+.container1 #logo {
   position: absolute;
   border-radius: 50%;
   margin-left: 50px;
   top: 10px;
   height: 170px;
 }
-.container ul{
+
+#contact{
+    float: right;
+    margin-top: -150px;
+    margin-right: 30px;
+    font-family: "san-serif", "tahoma";
+    color: white;
+}
+
+.container1 ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -40,7 +49,7 @@ html, body{
   background-color: #BCBEC0;
 }
 
-.container a li{
+.container1 a li{
   float: right;
   display: block;
   color: black;
@@ -50,7 +59,7 @@ html, body{
   font-family: "san-serif", "tahoma";
 }
 
-.container a li:hover{
+.container1 a li:hover{
   background-color: black;
   color: white;
 }
@@ -59,7 +68,112 @@ html, body{
   background-color: white;
 }
 
-.container #footer{
+#div1Title{
+  font-family: "san-serif", "tahoma";
+  float: left;
+  padding-left: 12%;
+}
+
+#div2Title{
+  font-family: "san-serif", "tahoma";
+  float: right;
+  padding-right: 12%;
+}
+
+.products{
+  margin-right: auto;
+  margin-left: auto;
+
+  width: 1500px;
+  height: 500px;
+  margin-top: 100px;
+}
+
+#hinges{
+  height: 500px;
+  width: 700px;
+  float: left;
+  background-image: url("../images/hinges/1.jpg");
+  background-size: 700px 500px;
+  background-repeat: no-repeat;
+  -webkit-box-shadow:0 0 20px black;
+  -moz-box-shadow: 0 0 20px black;
+  box-shadow:0 0 20px black;
+}
+
+#hinges #right{
+  opacity: 0.5;
+  width: 30px;
+  margin-top: 30%;
+  margin-right: 10px;
+  float: right;
+  transition-property: opacity;
+  transition-duration: 2s;
+
+}
+
+#hinges #right:hover{
+    opacity: 1;
+}
+
+#hinges #left{
+  opacity: 0.5;
+  width: 30px;
+  margin-top: 30%;
+  margin-left: 10px;
+  float: left;
+  transition-property: opacity;
+  transition-duration: 2s;
+
+}
+
+#hinges #left:hover{
+    opacity: 1;
+}
+
+#emblem{
+  height: 500px;
+  width: 700px;
+  float: right;
+  background-image: url("../images/emblems/1.jpg");
+  background-size: 700px 500px;
+  background-repeat: no-repeat;
+  -webkit-box-shadow:0 0 20px black;
+  -moz-box-shadow: 0 0 20px black;
+  box-shadow:0 0 20px black;
+}
+
+#emblem #right1{
+  opacity: 0.5;
+  width: 30px;
+  margin-top: 30%;
+  margin-right: 10px;
+  float: right;
+  transition-property: opacity;
+  transition-duration: 2s;
+
+}
+
+#emblem #right1:hover{
+    opacity: 1;
+}
+
+#emblem #left1{
+  opacity: 0.5;
+  width: 30px;
+  margin-top: 30%;
+  margin-left: 10px;
+  float: left;
+  transition-property: opacity;
+  transition-duration: 2s;
+
+}
+
+#emblem #left1:hover{
+    opacity: 1;
+}
+
+.container1 #footer{
   position: absolute;
   bottom: 15px;
   background-color: #BCBEC0;
@@ -67,14 +181,14 @@ html, body{
   width: 100%;
 }
 
-.container #footer ul{
+.container1 #footer ul{
   display: table;
   list-style-type: none;
   margin: 0 auto;
   overflow: hidden;
 }
 
-.container #footer li{
+.container1 #footer li{
   display: block;
   float: left;
   text-align center;
