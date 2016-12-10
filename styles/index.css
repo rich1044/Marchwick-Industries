@@ -69,11 +69,12 @@ html, body{
 }
 
 .container #footer{
-  position: absolute;
+  position: static;
   bottom: 15px;
   background-color: #BCBEC0;
   height: 59px;
   width: 100%;
+  margin-top: 50px;
 }
 
 .container #footer ul{
